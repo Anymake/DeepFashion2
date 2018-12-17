@@ -12,7 +12,7 @@ Below provides the links to validation set. We wil soon release training set and
 # Data Organization
 Each image in seperate image set has a unique six-digit number such as 000001.jpg. A corresponding annotation file in json
 format is provided in annotation set such as 000001.json. \
-Each annotation file is organized as blew: 
+Each annotation file is organized as below: 
 * source: a string, where 'shop' indicates that the image is from commercial store while 'user' indicates that the image is 
 taken by users.
 * pair id: a number. Images from the same shop and their corresponding consumer-taken images have the same pair id.
@@ -31,9 +31,7 @@ taken by users.
   ...<br>
   * item n
 
-In validation set, we provide query image names in (query.txt) and gallery image names in (gallery.txt). In Commercial-Consumer 
-Clothes Retrieval benchmark, during evaluation, each query clothing item with style number greater than 0 has ground truth
-corresponding gallery clothing item.
+In validation set, we provide query image names in (query.txt) and gallery image names in (gallery.txt). In Commercial-Consumer Clothes Retrieval benchmark, during evaluation, each query clothing item with style number greater than 0 has ground truth corresponding gallery clothing item.
 
 # Dataset Statistics
 
