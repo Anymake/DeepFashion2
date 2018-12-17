@@ -3,7 +3,7 @@ DeepFashion2 is a comprehensive fashion dataset. It contains 491K diverse images
 commercial shopping stores and consumers. It totally has 801K clothing clothing items, where each item in an image is labeled 
 with scale, occlusion, zoom-in, viewpoint, category, style, bounding box, dense landmarks and per-pixel mask.There are also 873K Commercial-Consumer clothes pairs.\
 We have 391K images for training, 34K images for validation and 67K images for test.
-![image](https://github.com/switchablenorms/DeepFashion2/blob/master/image/overall_annos4_after.pdf)
+![](https://github.com/switchablenorms/DeepFashion2/blob/master/image/overall_annos4_after.pdf)
 # Download the Data
 Below provides the links to validation set. We will soon release training set and test set.
 * Images(...)
