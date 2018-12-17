@@ -5,7 +5,7 @@ with category, style, bounding box, dense landmarks and per-pixel mask.There are
 We have 391K images for training, 34K images for validation and 67K images for test.
 
 # Download the Data
-Below provides the links to validation set. We wil soon release training set and test set.
+Below provides the links to validation set. We will soon release training set and test set.
 * Images(...)
 * Annotations(...)
 
@@ -25,13 +25,12 @@ taken by users.
     style number greater than 0 and they are from images with the same pair id.
     * bounding box: [x1,x2,y1,y2].
     * landmarks: [x1,y1,v1,...,xn,yn,vn], where v represents the visibility: v=2 visible; v=1 occlusion; v=0 not labeled.
-    * segmentation: [[x1,y1,...xn,yn],[ ]], where [x1,y1,xn,yn] represents a polygon and a single clothing item may need more than 
-    one polygon.
+    * segmentation: [[x1,y1,...xn,yn],[ ]], where [x1,y1,xn,yn] represents a polygon and a single clothing item may need more than one polygon.
   * item 2\
   ...<br>
   * item n
 
-In validation set, we provide query image names in (query.txt) and gallery image names in (gallery.txt). In Commercial-Consumer Clothes Retrieval benchmark, during evaluation, each query clothing item with style number greater than 0 has ground truth corresponding gallery clothing item.
+In validation set, we provide query image names in (list_query.txt) and gallery image names in (list_gallery.txt). In Commercial-Consumer Clothes Retrieval benchmark, during evaluation, each query clothing item with style number greater than 0 has corresponding ground truth gallery clothing item.
 
 # Dataset Statistics
 
