@@ -34,8 +34,9 @@ taken by users.
     * viewpoint: a number, where 1 represents no wear, 2 represents frontal viewpoint and 3 represents side or back viewpoint.
   * item 2\
   ...<br>
-  * item n
-
+  * item n \
+The definition of landmarks and skeletons of 13 categories are shown below:
+![image](https://github.com/switchablenorms/DeepFashion2/blob/master/image/cls.jpg)
 In validation set, we provide query image names in (list_query.txt) and gallery image names in (list_gallery.txt). In Commercial-Consumer Clothes Retrieval benchmark, during evaluation, each query clothing item with style number greater than 0 has corresponding ground truth gallery clothing item.
 
 # Dataset Statistics
