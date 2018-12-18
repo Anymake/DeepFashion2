@@ -41,6 +41,6 @@ The definition of landmarks and skeletons of 13 categories are shown below:
 In validation set, we provide query image names in (list_query.txt) and gallery image names in (list_gallery.txt). In Commercial-Consumer Clothes Retrieval benchmark, during evaluation, each query clothing item with style number greater than 0 has corresponding ground truth gallery clothing item.
 
 # Dataset Statistics
-
+![image](https://github.com/switchablenorms/DeepFashion2/blob/master/image/statistics.jpg)
 # Citation
 If you use the DeepFashion2 dataset in your work, please cite it as:
