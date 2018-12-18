@@ -63,5 +63,22 @@ Figure 3 shows the statistics of different variations and the numbers of items o
 <p align='center'>Figure 3: Statistics of DeepFashion2.</p>
 
 ![image](https://github.com/switchablenorms/DeepFashion2/blob/master/image/statistics.jpg)
+
+# Benchmarks
+## Clothes Detection
+This task detects clothes in an image by predicting bounding boxes and category labels to each detected clothing item.
+The evaluation metrics are the bounding box's average precision <a href="https://www.codecogs.com/eqnedit.php?latex=AP_{box}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?AP_{box}" title="AP_{box}" /></a>, <a href="https://www.codecogs.com/eqnedit.php?latex=AP_{box}^{IoU=0.50}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?AP_{box}^{IoU=0.50}" title="AP_{box}^{IoU=0.50}" /></a> and <a href="https://www.codecogs.com/eqnedit.php?latex=AP_{box}^{IoU=0.75}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?AP_{box}^{IoU=0.75}" title="AP_{box}^{IoU=0.75}" /></a>.
+## Landmark and Pose Estimation
+This task aims to predict landmarks for each detected clothing item in an each image.Similarly, we employ the evaluation metrics used by COCOfor human pose estimation by calculating the average precision for keypoints <a href="https://www.codecogs.com/eqnedit.php?latex=AP_{pt}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?AP_{pt}" title="AP_{pt}" /></a>, <a href="https://www.codecogs.com/eqnedit.php?latex=AP_{pt}^{OKS=0.50}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?AP_{pt}^{OKS=0.50}" title="AP_{pt}^{OKS=0.50}" /></a> and <a href="https://www.codecogs.com/eqnedit.php?latex=AP_{pt}^{OKS=0.75}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?AP_{pt}^{OKS=0.75}" title="AP_{pt}^{OKS=0.75}" /></a>where OKS indicates the object landmark similarity.
+## Clothes Segmentation
+This task assigns a category label (including background label) to each pixel in an item.The evaluation metrics is the average precision including  <a href="https://www.codecogs.com/eqnedit.php?latex=AP_{pt}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?AP_{pt}" title="AP_{pt}" /></a>, <a href="https://www.codecogs.com/eqnedit.php?latex=AP_{pt}^{OKS=0.50}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?AP_{pt}^{OKS=0.50}" title="AP_{pt}^{OKS=0.50}" /></a> and <a href="https://www.codecogs.com/eqnedit.php?latex=AP_{pt}^{OKS=0.75}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?AP_{pt}^{OKS=0.75}" title="AP_{pt}^{OKS=0.75}" /></a> computed over masks.
+## Consumer-to-Shop Clothes Retrieval
+Given a detected item from a consumer-taken photo, this task aims to search the commercial images in the gallery for the items that are corresponding to this detected item. In this task, top-k retrieval accuracy is employed as the evaluation metric. We emphasize the retrieval performance while still consider the influence of detector. If a clothing item fails to be detected, this query item is counted as missed.
 # Citation
 If you use the DeepFashion2 dataset in your work, please cite it as:
+```
+@article{DeepFashion2,
+  title={DeepFashion2: A Versatile Benchmark for Detection, Pose Estimation,Segmentation and Retrieval of Clothing Images},
+}
+```
+Please note that the article is in submission at present.
