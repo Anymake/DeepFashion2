@@ -49,13 +49,13 @@ In validation set, we provide query image names in (list_query.txt) and gallery 
 
 <p align='center'>Table 1: Statistics of DeepFashion2.</p>
 
-| | Train | Validation | Test | 
-|---:|---:|---:|---:|
-|images|390,884|33,669|67,342|
-|bboxes|636,624|54,910|109,198|
-|landmarks|636,624|54,910|109,198|
-|masks|636,624|54,910|109,198|
-|pairs|685,584|query: &nbsp;&nbsp;12,612<br/>gallery: 37,355|query: &nbsp;&nbsp;24,416<br/>gallery: 43,608|
+| | Train | Validation | Test | Overall |  
+|---:|---:|---:|---:|---:|
+|images|390,884|33,669|67,342|491,895|
+|bboxes|636,624|54,910|109,198|800,732|
+|landmarks|636,624|54,910|109,198|800,732|
+|masks|636,624|54,910|109,198|800,732|
+|pairs|685,584|62,563<br/>query: &nbsp;&nbsp;12,612<br/>gallery: 37,355|125,087<br/>query: &nbsp;&nbsp;24,416<br/>gallery: 43,608|873,234|
 
 Figure 3 shows the statistics of different variations and the numbers of items of the 13 categories in DeepFashion2.
 
