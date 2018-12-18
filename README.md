@@ -46,6 +46,17 @@ The definition of landmarks and skeletons of 13 categories are shown below. The 
 In validation set, we provide query image names in (list_query.txt) and gallery image names in (list_gallery.txt). In Commercial-Consumer Clothes Retrieval benchmark, during evaluation, each query clothing item with style number greater than 0 has corresponding ground truth gallery clothing item, which has the same style and pair_id with the query clothing item. A query clothing item may have more than one ground truth gallery clothing item.
 
 # Dataset Statistics
+
+<p align='center'>Table 1: Statistics of DeepFashion2.</p>
+
+| | Train | Validation | Test | 
+|---:|---:|---:|---:|
+|images|390,884|33,669|67,342|
+|bboxes|636,624|54,910|109,198|
+|landmarks|636,624|54,910|109,198|
+|masks|636,624|54,910|109,198|
+|pairs|685,584|query: &nbsp;&nbsp;12,612<br/>gallery: 37,355|query: &nbsp;&nbsp;24,416<br/>gallery: 43,608|
+
 Figure 3 shows the statistics of different variations and the numbers of items of the 13 categories in DeepFashion2.
 
 <p align='center'>Figure 3: Statistics of DeepFashion2.</p>
