@@ -45,7 +45,7 @@ The definition of landmarks and skeletons of 13 categories are shown below. The 
 <p align='center'>Figure 2: Definitions of landmarks and skeletons.</p>
 
 ![image](https://github.com/switchablenorms/DeepFashion2/blob/master/image/cls.jpg)
-In validation set, we provide query image names in (list_query.txt) and gallery image names in (list_gallery.txt). In Commercial-Consumer Clothes Retrieval benchmark, during evaluation, each query clothing item with style number greater than 0 has corresponding ground truth gallery clothing item, which has the same style and pair_id with the query clothing item. A query clothing item may have more than one ground truth gallery clothing item.
+In validation set, we provide query image names in [list_query.txt](https://github.com/switchablenorms/DeepFashion2/blob/master/data/val/list_query.txt) and gallery image names in [list_gallery.txt](https://github.com/switchablenorms/DeepFashion2/blob/master/data/val/list_gallery.txt). In Commercial-Consumer Clothes Retrieval benchmark, during evaluation, each query clothing item with style number greater than 0 has corresponding ground truth gallery clothing item, which has the same style and pair_id with the query clothing item. A query clothing item may have more than one ground truth gallery clothing item.
 
 # Dataset Statistics
 Tabel 1 shows the statistics of images and annotations in DeepFashion2.
