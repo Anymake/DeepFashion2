@@ -34,7 +34,7 @@ Each annotation file is organized as below:
     * **segmentation**: [[x1,y1,...xn,yn],[ ]], where [x1,y1,xn,yn] represents a polygon and a single clothing item may contain more than one polygon.
     * **scale**: a number, where 1 represents small scale, 2 represents modest scale and 3 represents large scale.
     * **occlusion**: a number, where 1 represents no occlusion, 2 represents partial occlusion and 3 represents heavy occlusion.
-    * **zoom-in**: a number, where 1 represents no zoom-in, 2 represents medium zoom-in and 3 represents lagre zoom-in.
+    * **zoom_in**: a number, where 1 represents no zoom-in, 2 represents medium zoom-in and 3 represents lagre zoom-in.
     * **viewpoint**: a number, where 1 represents no wear, 2 represents frontal viewpoint and 3 represents side or back viewpoint.
   * item 2\
   ...<br>
